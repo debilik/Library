@@ -14,14 +14,11 @@
    Класс Book:
    Поля:
 
-`public int Id { get; set; }` (уникальный идентификатор книги)
+   `public int Id { get; set; }`  (уникальный идентификатор книги)
    `public string Title { get; set; }` (название книги)
    `public string Author { get; set; }` (автор книги)
    `public int Year { get; set; }` (год издания)
-   `public bool IsAvailable { get; set; }` (доступность книги)
 
-Методы:
-   `public override string ToString()` — строковое представление книги.
    Функционал:
    * Добавление новой книги.
    * Удаление книги по идентификатору.
@@ -36,9 +33,9 @@
    `public string Name { get; set; }` (имя пользователя)
    `public string Email { get; set; }` (электронная почта)
    
-Методы:
-   `public override string ToString()` — строковое представление пользователя.
+
    Функционал:
+
    Регистрация нового пользователя.
    Удаление пользователя по идентификатору.
    Вывод списка всех пользователей.
